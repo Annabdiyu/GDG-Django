@@ -1,5 +1,5 @@
 lists=[1,2,3,4,5,6,7,8,9,10] #deault list
-def sumlist(list):  #for question number 1
+def sumlist(list):  #week 1
     sum=0
     for i in range(len(lists)):
         sum+=lists[i]
@@ -7,7 +7,7 @@ def sumlist(list):  #for question number 1
 print(sumlist(list))
 
 numbers=[int(i) for i in range(1,21)]
-def printEven(numbers):   #for question number 2
+def printEven(numbers):   #week 2
     result=[]
     for num in numbers:
         if num%2==0:
@@ -16,7 +16,7 @@ def printEven(numbers):   #for question number 2
 print(printEven(numbers))
 
 nums=[10,22,325,586,30,0,-53,100,643,6979]
-def printLargest(nums):
+def printLargest(nums):  #week 3
     result=0
     for num in nums:
         if num>result:
